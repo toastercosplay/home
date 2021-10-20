@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {background-color: f2e6ff}
+h1 {text-align: center,  }
+p {text-align: left  }
+
+.button {
+color: black;
+border: none;
+padding: 15px 32px;
+margin: 20px;
+padding: 20px;
+text-align: center;
+display: inline-block;
+}
+
+.button1 {background-color: #b3d9ff;}
+.button2 {background-color: #ffcce6;}
+</style>
+<script>
+function Function1() {
+	document.getElementById("demo").innterHTML = "new paragraph";
+}
+</script>
+</head>
+
+<body>
+
+<h1> toater cosplay dot com </h1>
+
+<p id="demo"> there is a paragraph here </p>
+
+<p> something else </p>
+
+<button class="button button1"> twitter </button>
+<button class="button button2"> instagram </button>
+
+<br>
+
+
+
+</body>
+</html>
